@@ -1,0 +1,105 @@
+Étape 1. Le déplacement des pièces
+
+Chacune des 6 sortes de pièces se déplace différemment. Les pièces ne peuvent pas en traverser d’autres (bien que le cavalier puisse sauter par-dessus) et ne peuvent jamais partager une case avec une pièce de leur propre camp. En revanche, elles peuvent prendre la place d’une pièce adverse en la capturant. Le but du déplacement des pièces est de les mettre en position d’en capturer une autre (en atterrissant sur sa case et en la remplaçant), de défendre leurs alliées contre la capture, ou de contrôler des cases importantes.
+
+Comment se déplace le roi
+
+Bien que le roi soit la pièce la plus importante, c’est aussi l’une des plus faibles. Il ne peut bouger que d’une case dans n’importe quelle direction : vers le haut, vers le bas, sur le côté ou en diagonale. Le roi n’a pas le droit de se placer sur une case où il serait en échec (là où il pourrait être capturé). Quand une autre pièce l’attaque, cela s’appelle « échec au roi ».
+
+Comment se déplace la dame
+
+La dame est la pièce la plus forte. Elle peut se déplacer dans toutes les directions : vers l’avant, vers l’arrière, sur le côté ou en diagonale, aussi loin que le joueur le souhaite à condition de ne pas passer par-dessus d’autres pièces. Comme c’est le cas pour toutes les pièces, lorsque la dame capture une pièce adverse, elle s’arrête sur la case de la capture. Remarquez que lorsque la dame blanche capture la dame noire, le roi noir est forcé de bouger.
+
+Comment se déplace la tour
+
+La tour bouge aussi loin que le joueur le désire mais seulement en avant, en arrière et sur les côtés. Les tours sont particulièrement efficaces quand elles se protègent mutuellement et opèrent ensemble !
+
+Comment se déplace le fou
+
+Le fou se déplace aussi loin que le joueur le souhaite, mais uniquement en diagonale. Chaque fou commence sur une case d’une couleur (noire ou blanche) qu’il ne quittera jamais. Les fous sont efficaces ensemble, car chacun couvre les cases auxquelles l’autre n’a pas accès.
+
+Comment se déplace le cavalier
+
+Les cavaliers se déplacent d’une manière particulière par rapport aux autres pièces : ils bougent de deux cases dans une direction, puis d’une à 90 degrés, comme pour former un « L ». Les cavaliers sont aussi les seuls autorisés à passer par-dessus les autres pièces, quel que soit leur camp.
+
+Comment se déplace le pion
+
+Les pions sont particuliers, car ils ne capturent pas de la même manière qu’ils se déplacent : ils bougent vers l’avant et attaquent en diagonale. Les pions ne peuvent avancer que d’une case à la fois, sauf lors de leur premier déplacement, où il leur est permis d’avancer de deux cases. Ils ne peuvent capturer que sur l’une des deux cases situées en diagonale devant eux. Ils ne peuvent ni bouger, ni capturer en arrière. Lorsqu’une pièce se trouve sur la case juste devant eux, ils sont bloqués, ne pouvant ni la capturer ni passer par-dessus.
+
+Étape 2. Les règles spéciales des échecs
+
+Il existe quelques règles spéciales aux échecs qui peuvent sembler illogiques au premier abord. Elles ont été créées pour rendre le jeu plus amusant et intéressant.
+
+Promouvoir un pion
+
+Le pion dispose d’un autre coup spécial. Si un pion atteint l’autre bout de l’échiquier, il peut devenir n’importe quelle autre pièce, à l’exception d’un roi.
+Ceci s’appelle la promotion. Une idée fausse répandue est qu’un pion promu ne peut être remplacé que par une pièce qui a été capturée : ce n’est PAS vrai. Un pion est habituellement promu en dame. Seuls les pions peuvent être promus.
+
+Prendre « en passant »
+
+La dernière règle concernant les pions s’appelle « la prise en passant ». Lorsqu’un pion avance de deux cases à son premier coup, et ce faisant se retrouve à côté d’un pion de l’adversaire (qui ne peut donc plus le capturer de manière classique), cet autre pion a la possibilité de capturer le premier « en passant », comme s’il ne s’était déplacé que d’une case. Ce coup spécial doit être joué immédiatement, dans le tour qui suit le départ du pion pris. Voyez l’exemple ci-dessous pour mieux comprendre cette règle étrange, mais importante.
+
+Le Roque
+
+Une autre règle spéciale des échecs s’appelle le roque. Il vous permet de faire d’une pierre deux coups : mettre votre roi à l’abri (dans la mesure du possible) et faire entrer une tour dans le jeu en la sortant de son coin. Le joueur déplace son roi latéralement de deux cases, puis pose la tour sur la case située immédiatement de l’autre côté de celui-ci. (Regardez l’exemple ci-dessous.) Pour pouvoir roquer, les conditions suivantes doivent toutefois être remplies :
+
+    - il doit s’agir du premier déplacement du roi
+    - il doit s’agir du premier coup de la tour concernée
+    - pour roquer, aucune pièce ne doit se trouver entre le roi et la tour
+    - le roi ne peut pas se placer en échec ni traverser une ligne d'échec
+
+En roquant avec la tour la plus proche du roi, vous effectuez un « petit roque ». Si vous utilisez la tour la plus éloignée, en faisant traverser au roi la case de départ de la dame, cela s’appelle un « grand roque ». Quelle que soit la direction du roque, le roi se déplace toujours de deux cases.
+
+Étape 3. Qui joue en premier aux échecs
+
+Le joueur qui dispose des pièces blanches joue toujours en premier. Elles sont donc en général attribuées au hasard, souvent à pile ou face ou en demandant à l’un des joueurs de deviner la couleur du pion caché dans la main de l’autre. Les blancs jouent alors un coup, puis les noirs, puis les blancs à nouveau, et ainsi de suite jusqu’à la fin de la partie. Avoir le trait au début du jeu constitue un petit avantage, le camp des pièces blanches ayant l’opportunité d’attaquer plus vite.
+
+Étape 4. Passez en revue les règles pour gagner une partie d’échecs
+
+Il existe deux façons de terminer une partie d'échecs : par échec et mat, ou en faisant nulle.
+Comment faire échec et mat
+
+Le but de la partie est de mettre le roi adverse échec et mat. Cela se produit lorsque le roi est mis en échec et ne peut pas s’échapper. Il n’y a que trois façons de soustraire le roi à l’échec:
+
+    - le déplacer (mais sans roquer !),
+    - parer l'échec avec une autre pièce,
+    - ou capturer la pièce qui donne l’échec.
+
+Quand aucune de ces actions n’est possible, la partie est finie. Habituellement, le roi n'est pas capturé ni retiré de l'échiquier, la partie est simplement déclarée terminée.
+
+Comment faire nulle
+
+Parfois, la partie d’échecs ne s’achève pas sur une victoire, mais sur une partie nulle. Il existe 5 manières d’arriver à une telle situation :
+
+    - Le jeu aboutit à une impasse quand l’un des deux joueurs ne peut effectuer de coup légal à son tour de jeu, bien que son roi ne soit pas en échec. C’est ce qu’on appelle le pat.
+    - Les joueurs peuvent se mettre d'accord pour faire nulle et arrêter de jouer.
+    - Il n’y a pas suffisamment de pièces sur l’échiquier pour forcer un mat (par exemple: un roi et un fou contre un roi).
+    - Le joueur peut demander la nulle lorsqu'une même position est répétée trois fois (mais pas nécessairement trois fois de suite).
+    - Cinquante coups ont été joués sans qu'un pion ait été déplacé ni qu'une capture de pièce ait eu lieu.
+
+Étape 5. Étudiez les stratégies de base
+
+Tout joueur d'échecs doit savoir quatre choses:
+Protégez votre roi
+
+Placez votre roi près d’un coin de l’échiquier, où il sera généralement plus en sécurité. Ne différez pas le roque : souvent, mieux vaut roquer aussi tôt que possible. N’oubliez pas que quelle que soit l’efficacité de votre attaque, elle ne servira à rien si votre adversaire fait échec et mat en premier !
+Ne faites pas cadeau de vos pièces
+
+N’abandonnez pas vos pièces par négligence ! Chacune d’elles est précieuse et peut vous permettre de mater l’adversaire. Il existe un système simple que la plupart des joueurs utilisent pour attribuer une valeur propre à chaque pièce. Que valent les pièces ?
+
+    - Un pion vaut 1 point
+    - Un cavalier vaut 3 points
+    - Un fou vaut 3 points
+    - Une tour vaut 5 points
+    - La dame vaut 9 points
+    - Le roi est infiniment précieux
+
+À la fin de la partie, ce système de points ne signifie rien en soi. Il permet simplement de prendre des décisions en cours de jeu et de savoir s’il est préférable de capturer, d’échanger ou de jouer un autre coup.
+
+Contrôlez le centre de l’échiquier
+
+Vous devez vous efforcer de contrôler le centre de l’échiquier avec vos pièces et vos pions. Contrôler le centre procure généralement l’espace nécessaire pour manœuvrer les pièces tout en empêchant l’adversaire d’accéder à des cases importantes. Dans l’exemple ci-dessus, les Blancs jouent de bons coups pour contrôler le centre tandis que les Noirs jouent de mauvais coups.
+
+Utilisez toutes vos pièces
+
+Dans l’exemple ci-dessus, les blancs ont activé toutes leurs pièces ! Vos pièces ne servent à rien lorsqu’elles restent sur la première rangée. Essayez de toutes les développer afin d’avoir un maximum de possibilités lorsque vous attaquerez le roi. N’utiliser qu’une ou deux pièces pour attaquer vous permettra rarement de venir à bout d’un adversaire digne de ce nom.
