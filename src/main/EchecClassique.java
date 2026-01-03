@@ -27,11 +27,11 @@ public class EchecClassique {
     }
 
     private void defJoueur(){
-        EchecScolaire.clearScreen();
+        Checkexe.clearScreen();
         for(int i = 0; i <= 1; i++){
             System.out.print("Entré le nom du joueur " + (i+1) + ": ");
-            this.joueurs.add(new Joueur(EchecScolaire.sc.next(), i));
-            EchecScolaire.clearScreen();
+            this.joueurs.add(new Joueur(Checkexe.sc.next(), i));
+            Checkexe.clearScreen();
         }
     }
 
@@ -45,8 +45,8 @@ public class EchecClassique {
                         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
                         System.out.println("Press enter to go back to main menu");
                         br.readLine();
-                        EchecScolaire.clearScreen();
-                        EchecScolaire.showMainMenu();
+                        Checkexe.clearScreen();
+                        Checkexe.showMainMenu();
                     } catch (Exception e) {}
                     break;
                 }
@@ -56,11 +56,11 @@ public class EchecClassique {
             if (!ok) {
                 // si l'utilisateur a fait EOF pendant saisie -> retour au menu
                 System.out.println("Retour au menu.");
-                EchecScolaire.showMainMenu();
+                Checkexe.showMainMenu();
                 return;
             }
             idxJoueur = (idxJoueur + 1)% 2;
-            EchecScolaire.clearScreen();
+            Checkexe.clearScreen();
             System.out.println(e.toString());
         }
     }

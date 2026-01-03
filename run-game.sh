@@ -14,4 +14,4 @@ find src/main -name '*.java' -print >> "$SRCFILE"
 javac -encoding UTF-8 -d out -cp . @"$SRCFILE"
 
 # Run
-exec java -cp out main.EchecScolaire
+exec java -cp out main.Checkexe

@@ -1,6 +1,12 @@
 package main.multi;
 
 import main.*;
+import main.pieces.Bishop;
+import main.pieces.King;
+import main.pieces.Knight;
+import main.pieces.Pawn;
+import main.pieces.Queen;
+import main.pieces.Rook;
 
 public final class BoardSetup {
     private BoardSetup(){}

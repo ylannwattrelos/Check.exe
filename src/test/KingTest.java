@@ -1,6 +1,10 @@
 package test;
 
 import main.*;
+import main.pieces.King;
+import main.pieces.Pawn;
+import main.pieces.Rook;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

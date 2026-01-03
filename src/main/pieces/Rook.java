@@ -1,6 +1,9 @@
-package main;
+package main.pieces;
 
 import java.util.ArrayList;
+
+import main.Echiquier;
+import main.Piece;
 
 public class Rook extends Piece {
 

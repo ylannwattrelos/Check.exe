@@ -2,6 +2,13 @@ package main;
 
 import java.util.Scanner;
 
+import main.pieces.Bishop;
+import main.pieces.King;
+import main.pieces.Knight;
+import main.pieces.Pawn;
+import main.pieces.Queen;
+import main.pieces.Rook;
+
 public class Echiquier {
 
     public static final int SIZE = 8;
@@ -396,9 +403,6 @@ public class Echiquier {
             y = a[1];
         }
         this.pieces[y][x].deplacementPossible(this, x, y);
-
-            Piece pc = this.pieces[y][x];
-           
 
             // Optionnel : calculer le masque une fois (utile si tu gardes estBloque())
             // try {

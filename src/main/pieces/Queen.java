@@ -1,4 +1,7 @@
-package main;
+package main.pieces;
+
+import main.Echiquier;
+import main.Piece;
 
 public class Queen extends Piece {
 

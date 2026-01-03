@@ -5,6 +5,12 @@ import java.util.List;
 import java.util.Random;
 
 import main.*;
+import main.pieces.Bishop;
+import main.pieces.King;
+import main.pieces.Knight;
+import main.pieces.Pawn;
+import main.pieces.Queen;
+import main.pieces.Rook;
 
 public class PositionerChess960 implements Positioner {
 

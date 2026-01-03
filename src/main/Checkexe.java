@@ -9,9 +9,8 @@ import sun.misc.Signal;
 import sun.misc.SignalHandler;
 
 import main.mode.Positioner;
-import main.mode.PositionerClassic;
-import main.mode.PositionerChess960;
-public class EchecScolaire {
+
+public class Checkexe {
     public static Scanner sc = new Scanner(System.in);
 
     public static void showMainMenu(){
@@ -20,7 +19,8 @@ public class EchecScolaire {
         content.append("  1. Jouer\n");
         content.append("  2. Règles\n");
         content.append("  3. Quitter\n\n");
-        System.out.println(TextUI.centerBox("Échecs Scolaires", content.toString(), 40));
+        TextUI.clearScreen();
+        System.out.println(TextUI.centerBox("Check.exe", content.toString(), 40));
         int input = getChoice(1, 3);
         TextUI.clearScreen();
         switch (input) {

@@ -2,6 +2,8 @@ package test;
 
 import org.junit.jupiter.api.Test;
 import main.*;
+import main.pieces.Pawn;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 

@@ -1,8 +1,4 @@
 package main;
-
-import java.io.PrintStream;
-import java.nio.charset.Charset;
-
 public final class TextUI {
     private TextUI() {}
 
@@ -109,7 +105,6 @@ public final class TextUI {
     public static String centerBox(String title, String content, int innerWidth) {
         String b = box(title, content, innerWidth);
         int tw = terminalWidth();
-        int outer = Math.min(tw, innerWidth + 2); // simplistic
         StringBuilder sb = new StringBuilder();
         for (String line : b.split("\n")) {
             sb.append(center(line, tw)).append('\n');

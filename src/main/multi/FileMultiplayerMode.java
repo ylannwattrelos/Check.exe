@@ -1,6 +1,7 @@
 package main.multi;
 
 import main.*;
+import main.pieces.Pawn;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 
 public class FileMultiplayerMode {
 
-    private static final Scanner SC = EchecScolaire.sc; // réutilise le scanner global
+    private static final Scanner SC = Checkexe.sc; // réutilise le scanner global
 
     enum Command { NONE, QUIT, RESIGN, DRAW }
 
@@ -128,7 +129,7 @@ public class FileMultiplayerMode {
                 // Reconstruit le plateau
                 Echiquier board = BoardRebuilder.rebuildFromMoves(moves);
 
-                EchecScolaire.clearScreen();
+                Checkexe.clearScreen();
                 System.out.println(board.toStringPerspective(myColor));
                 String toPlay = BoardRebuilder.nextToPlay(moves);
                 // Check fin de partie (mat / stalemate) du point de vue de 'toPlay'
@@ -307,7 +308,7 @@ public class FileMultiplayerMode {
     }
 
     private static void endScreen(FileGameSync sync, String myColor, FileGameSync.EndSummary end) {
-        EchecScolaire.clearScreen();
+        Checkexe.clearScreen();
         StringBuilder content = new StringBuilder();
         if (end == null) {
             content.append("\n  La partie a été clôturée.\n\n");
